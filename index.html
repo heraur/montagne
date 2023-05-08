@@ -6,67 +6,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>montagne</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/styles/index.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
-            <h1>la montagne ça vous gagne</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus facere debitis sapiente quo, esse
+        <div class="header-content">
+            <h1>la montagne <br>ça vous gagne </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 nihil laudantium earum </p>
+            <span><a href="#main"><i class="fa-solid fa-arrow-down"></i></a></span>
         </div>
         <nav>
-            <ul>
+            <ul class="nav-left">
                 <li>This is massively</li>
                 <li>generic page</li>
                 <li>elements reference</li>
             </ul>
-            <ul>
-                <li><a><img src="./assets/images/twitter.png" alt=""></a></li>
-                <li><a><img src="./assets/images/facebook.png" alt=""></a></li>
-                <li><a><img src="./assets/images/instagram.png" alt=""></a></li>
-                <li><a><img src="./assets/images/github.png" alt=""></a></li>
+            <ul class="nav-right">
+                <li><i class="fa-brands fa-twitter"></i></li>
+                <li><i class="fa-brands fa-facebook-f"></i></li>
+                <li><i class="fa-brands fa-instargram"></i></li>
+                <li><i class="fa-brands fa-github"></i></li>
             </ul>
         </nav>
     </header>
+    <main id="main">
+        <div class="separator">
+            <h6>April 25, 2017</h6>
+        </div>
+        <div class="section1">
+            <h2>and this is a massive headline</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga illo ipsum accusamus animi error doloribus
+                optio, nam suscipit, pariatur magni consectetur cum reprehenderit.</p>
+            <img src="./assets/images/pic01.jpg" alt="">
+            <button>full story</button>
+        </div>
 
-    <div class="separator">
-        <h6>April 25, 2017</h6>
-    </div>
-    <div class="section1">
-        <h2>and this is a massive headline</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga illo ipsum accusamus animi error doloribus
-            optio, nam suscipit, pariatur magni consectetur cum reprehenderit.</p>
-        <img src="./assets/images/pic01.jpg" alt="">
-        <button>full story</button>
-    </div>
-
-    <div class="section2">
-        <div class="section2--left">
-            <h6>April 24, 2017</h6>
-            <h4>sed magna ipsum faucibus</h4>
-            <img src="./assets/images/pic02.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit earum?
-            </p>
-            <button>full story</button>
+        <div class="section2">
+            <div class="section2--left">
+                <h6>April 24, 2017</h6>
+                <h4>sed magna ipsum faucibus</h4>
+                <img src="./assets/images/pic02.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit
+                    earum?
+                </p>
+                <button>full story</button>
+            </div>
+            <div class="section2--left">
+                <h6>April 24, 2017</h6>
+                <h4>sed magna ipsum faucibus</h4>
+                <img src="./assets/images/pic02.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit
+                    earum?
+                </p>
+                <button>full story</button>
+            </div>
+            <div class="section2--right">
+                <h6>April 24, 2017</h6>
+                <h4>sed magna ipsum faucibus</h4>
+                <img src="./assets/images/pic03.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit
+                    earum?
+                </p>
+                <button>full story</button>
+            </div>
         </div>
-        <div class="section2--left">
-            <h6>April 24, 2017</h6>
-            <h4>sed magna ipsum faucibus</h4>
-            <img src="./assets/images/pic02.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit earum?
-            </p>
-            <button>full story</button>
-        </div>
-        <div class="section2--right">
-            <h6>April 24, 2017</h6>
-            <h4>sed magna ipsum faucibus</h4>
-            <img src="./assets/images/pic03.jpg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eveniet ipsam at voluptatem, fugit earum?
-            </p>
-            <button>full story</button>
-        </div>
-    </div>
+    </main>
     <dvi class="footer">
         <div class="footer--right">
             <form action="">
@@ -95,10 +105,10 @@
                 <h4>social</h4>
                 <div class="social-container">
                     <ul>
-                        <li><a><img src="./assets/images/twitter.png" alt=""></a></li>
-                        <li><a><img src="./assets/images/facebook.png" alt=""></a></li>
-                        <li><a><img src="./assets/images/instagram.png" alt=""></a></li>
-                        <li><a><img src="./assets/images/github.png" alt=""></a></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-instargram"></i></li>
+                        <li><i class="fa-brands fa-github"></i></li>
                     </ul>
                 </div>
             </div>
